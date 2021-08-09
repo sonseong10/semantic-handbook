@@ -1,0 +1,19 @@
+{
+  "name": "static-handbook",
+  "version": "0.0.1",
+  "description": "description",
+  "main": "index.js",
+  "authors": {
+    "name": "Sonseongyeol",
+    "email": "sonseong10@gmail.com"
+  },
+  "repository": "/static-handbook",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}

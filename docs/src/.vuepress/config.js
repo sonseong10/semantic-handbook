@@ -77,7 +77,7 @@ module.exports = {
       {
         title: "HTML",
         collapsable: false,
-        children: ["/html/what-is-html"]
+        children: ["/html/what-is-html", "/html/tag-anatomy"]
       },
       {
         title: "CSS",

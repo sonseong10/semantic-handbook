@@ -6,8 +6,8 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: "test",
-
+  description: "HTML",
+  // base: "/static-handbook/",
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -58,34 +58,33 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: "",
-    editLinks: false,
-    docsDir: "",
-    editLinkText: "",
-    lastUpdated: false,
     nav: [
       {
-        text: "📖 HTML",
-        link: "/html/"
+        text: "📖 HTML & CSS",
+        link: "/guide"
       },
       {
-        text: "🎨 CSS",
-        link: "/css/"
+        text: "🙋‍♂️ About",
+        link: "/about/"
       },
       {
         text: "💻 Github",
         link: "https://github.com/sonseong10"
       }
     ],
-    sidebar: {
-      "/html/": [
-        {
-          title: "HTML",
-          collapsable: false,
-          children: ["", "using-vue"]
-        }
-      ]
-    }
+    sidebar: [
+      "/guide",
+      {
+        title: "HTML",
+        collapsable: false,
+        children: ["/html/what-is-html"]
+      },
+      {
+        title: "CSS",
+        collapsable: false,
+        children: ["/css/what-is-css"]
+      }
+    ]
   }
 
   /**

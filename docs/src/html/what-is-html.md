@@ -18,3 +18,7 @@ HTML (Hypertext Markup Language,하이퍼텍스트 마크업 언어)는 `프로�
 :::tip
 다양한 태그와 웹표준의 맞는 올바른 사용법을 익혀야 합니다.
 :::
+
+### 참조
+
+웹표준인 [w3](https://www.w3.org/TR/html52/dom.html#documents)와 [mdn](https://developer.mozilla.org/en-US/)에 작성된 내용 기반으로 제작 됩니다.

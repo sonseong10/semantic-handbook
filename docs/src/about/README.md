@@ -10,7 +10,7 @@ sidebar: auto
 그 결과 (극단적인 예시 입니다.)
 
 ```html
-// 💩
+<!-- 💩 -->
 <div style="display: inline-block">
   <div style="display: flex !important">
     <div style="font-size: 24px" onclick="foo()">Title</div>
@@ -26,7 +26,7 @@ sidebar: auto
 ## 이후에 얻게 되는 것
 
 ```html
-// ✨
+<!-- ✨ -->
 <article class="container">
   <h1 class="hide-text">Product card</h1>
   <header class="product-card">

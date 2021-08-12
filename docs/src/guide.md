@@ -18,6 +18,11 @@ title: Introduction
 - [설명리스트](/html/description-list.html)
 - [인용구](/html/quotations.html)
 - [콘텐츠분할요소](/html/div-span.html)
+- [의미론적분할요소](/html/generic-section.html)
+- [입력서식](/html/form.html)
+- [표](/html/graph.html)
+- [미디어](/html/media.html)
+- [기타](/html/etc.html)
 
 ### 🎨 CSS
 

@@ -58,6 +58,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
+    smoothScroll: true,
     nav: [
       {
         text: "📖 HTML & CSS",
@@ -87,7 +88,12 @@ module.exports = {
           "/html/unorder-order-list",
           "/html/description-list",
           "/html/quotations",
-          "/html/div-span"
+          "/html/div-span",
+          "/html/generic-section",
+          "/html/form",
+          "/html/graph",
+          "/html/media",
+          "/html/etc"
         ]
       },
       {

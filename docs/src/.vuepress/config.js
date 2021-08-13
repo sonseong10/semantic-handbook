@@ -81,6 +81,7 @@ module.exports = {
         children: [
           "/html/what-is-html",
           "/html/tag-anatomy",
+          "/html/doctype",
           "/html/headings-paragraph",
           "/html/emphasis",
           "/html/anchor",
@@ -93,6 +94,8 @@ module.exports = {
           "/html/form",
           "/html/graph",
           "/html/media",
+          "/html/style-script",
+          "/html/meta",
           "/html/etc"
         ]
       },

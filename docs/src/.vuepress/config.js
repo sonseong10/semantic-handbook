@@ -102,7 +102,18 @@ module.exports = {
       {
         title: "CSS",
         collapsable: false,
-        children: ["/css/what-is-css"]
+        children: [
+          "/css/what-is-css",
+          "/css/basic",
+          "/css/reset_normalize",
+          "/css/boxmodel",
+          "/css/bfc_bc",
+          "/css/fix_float",
+          "/css/layout",
+          "/css/typography",
+          "/css/media",
+          "/css/em_rem"
+        ]
       }
     ]
   }

@@ -114,6 +114,11 @@ module.exports = {
           "/css/media",
           "/css/em_rem"
         ]
+      },
+      {
+        title: "Semantic",
+        collapsable: false,
+        children: ["/semantic/semantic-h1", "/semantic/aria-attribute.md"]
       }
     ]
   }

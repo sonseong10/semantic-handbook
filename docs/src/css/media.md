@@ -4,8 +4,6 @@
 
 `반응형 웹을 제작하기 위해 필수입니다.`
 
-## Hoe to use
-
 ```css
 @media media-type and (media-feature-rule) {
   /* CSS rules go here */

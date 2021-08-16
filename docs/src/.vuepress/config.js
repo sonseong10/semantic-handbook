@@ -113,13 +113,18 @@ module.exports = {
           "/css/typography",
           "/css/media",
           "/css/em_rem",
-          "/css/lint"
+          "/css/lint",
+          "/css/browser"
         ]
       },
       {
         title: "Semantic",
         collapsable: false,
-        children: ["/semantic/multiple-h1", "/semantic/aria-attribute.md"]
+        children: [
+          "/semantic/multiple-h1",
+          "/semantic/aria-attribute.md",
+          "/semantic/data-attribute.md"
+        ]
       }
     ]
   }

@@ -18,7 +18,7 @@ CSS, JavaScript 선택자로 의미론적 사용을 위해 사용합니다.
 </ul>
 ```
 
-## CSS에서 사용
+### CSS에서 사용
 
 ```css
 li[data-name="boo"] {
@@ -26,7 +26,7 @@ li[data-name="boo"] {
 }
 ```
 
-## JavaScript에서 사용
+### JavaScript에서 사용
 
 ```js
 const boo = document.queryselector('li[data-name="boo"]')

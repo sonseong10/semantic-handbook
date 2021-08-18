@@ -44,3 +44,4 @@ title: Introduction
 - [h1 다중사용](/semantic/multiple-h1.html)
 - [aria 속성](/semantic/aria-attribute.html)
 - [data 속성](/semantic/data-attribute.html)
+- [이미지 배경처리](/semantic/background-image.html)

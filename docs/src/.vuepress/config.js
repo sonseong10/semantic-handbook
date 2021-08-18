@@ -123,7 +123,8 @@ module.exports = {
         children: [
           "/semantic/multiple-h1",
           "/semantic/aria-attribute.md",
-          "/semantic/data-attribute.md"
+          "/semantic/data-attribute.md",
+          "/semantic/background-image.md"
         ]
       }
     ]

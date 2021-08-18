@@ -99,3 +99,31 @@ alt 속성의 값으로 figcaption이 사용 되므로 alt="" 빈값으로 작�
 ### 속성
 
 - datetime: 적절한 검색 결과나, 알림 같은 특정 기능을 구현할 때 사용할 수 있습니다. 값 형식은 [MDN](https://developer.mozilla.org/ko/docs/Web/HTML/Element/time)에서 확인 바랍니다.
+
+## output <Badge type="tip" text="HTML5" vertical="middle" />
+
+스크립트 등에 의해 수행된 계산의 결과나 사용자의 액션에 의한 결과를 나타낼 때 사용합니다.
+
+```html
+<form action="/" oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="b" name="b" value="50" /> +
+  <input type="number" id="a" name="a" value="10" /> =
+  <output name="result" for="a b"></output>
+</form>
+```
+
+### 속성
+
+- oninput: input Event 사용을 위해 적용했으며 지금 단계에선 이런게 있다. 정도만 이해하고 넘어가도 괜찮습니다.
+
+## cnaves <Badge type="tip" text="HTML5" vertical="middle" />
+
+canvas 태그는 주로 자바스크립트와 같은 스크립트를 이용하여 그래픽 콘텐츠를 그릴 때 사용합니다. 그래픽 콘텐츠를 위한 컨테이너일 뿐 실제로 그림을 그리는 동작은 스크립트를 사용하여 구현합니다.
+
+```html
+<canvas id="myCanvas" style="border: 2px solid black">
+  이 문장은 사용자의 웹 브라우저가 canvas 요소를 지원하지 않을 때 나타납니다.
+</canvas>
+```
+
+- 요소 내부에 존재하는 텍스트는 해당 브라우저가 `<canvas>` 요소를 지원하지 않을 경우 브라우저 화면에 대신 나타나게 됩니다.

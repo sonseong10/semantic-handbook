@@ -124,7 +124,8 @@ module.exports = {
           "/semantic/multiple-h1",
           "/semantic/aria-attribute.md",
           "/semantic/data-attribute.md",
-          "/semantic/background-image.md"
+          "/semantic/background-image.md",
+          "/semantic/title-tip.md"
         ]
       }
     ]

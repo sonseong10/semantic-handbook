@@ -34,6 +34,8 @@ title: Introduction
 - [float 고치기](/css/fix_float.html)
 - [레이아웃 구성](/css/layout.html)
 - [타이포그래피](/css/typography.html)
+- [상태 디자인](/css/state.html)
+- [애니메이션](/css/interaction.html)
 - [반응형 레이아웃](/css/media.html)
 - [반응형 사이즈 - em, rem](/css/em_rem.html)
 - [CSS 작성 순서](/css/lint.html)

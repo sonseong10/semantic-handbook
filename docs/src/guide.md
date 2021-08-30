@@ -12,7 +12,7 @@ title: Introduction
 - [태그 해부학](/html/tag-anatomy.html)
 - [제목과 문단](/html/headings-paragraph.html)
 - [강조](/html/emphasis.html)
-- [링크](/html/anchor.html)
+- [페이지 이동](/html/anchor.html)
 - [이미지](/html/img.html)
 - [리스트](/html/unorder-order-list.html)
 - [설명리스트](/html/description-list.html)

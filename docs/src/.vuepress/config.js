@@ -1,22 +1,22 @@
 module.exports = {
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#title
-   */
   title: "Semantic Handbook",
-  /**
-   * Ref：https://v1.vuepress.vuejs.org/config/#description
-   */
   description: "HTML CSS Semantic Guidline ",
   // base: "/static-handbook/",
-  /**
-   * Extra tags to be injected to the page HTML `<head>`
-   *
-   * ref：https://v1.vuepress.vuejs.org/config/#head
-   */
+
   head: [
+    [
+      "meta",
+      { name: "viewport", content: "width=device-width, initial-scale=1" }
+    ],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+    [
+      "meta",
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" }
+    ],
+    ["meta", { name: "theme-color", content: "#603cba" }],
+    ["meta", { name: "msapplication-TileColor", content: "#603cba" }],
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
-    ["meta", { name: "theme-color", content: "#603cba" }],
     [
       "link",
       {
@@ -35,11 +35,7 @@ module.exports = {
         href: "/images/favicon-16x16.png"
       }
     ],
-    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
-    [
-      "meta",
-      { name: "apple-mobile-web-app-status-bar-style", content: "black" }
-    ],
+
     ["link", { rel: "apple-touch-icon", href: "/images/apple-touch-icon.png" }],
     [
       "link",
@@ -48,15 +44,9 @@ module.exports = {
         href: "/images/android-chrome-256x256.png",
         color: "#603cba"
       }
-    ],
-    ["meta", { name: "msapplication-TileColor", content: "#603cba" }]
+    ]
   ],
 
-  /**
-   * Theme configuration, here is the default theme configuration for VuePress.
-   *
-   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
-   */
   themeConfig: {
     smoothScroll: true,
     nav: [
@@ -131,10 +121,21 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
 
-  /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
-   */
-  // plugins: ["@vuepress/plugin-back-to-top", "@vuepress/plugin-medium-zoom"]
+  plugins: [
+    ["@vuepress/plugin-back-to-top"],
+    [
+      {
+        "@vuepress/pwa": {
+          serviceWorker: true,
+          updatePopup: {
+            message:
+              "새 컨텐츠가 등록되었습니다. 새로고침 버튼을 눌러주세요 😄",
+            buttonText: "새로고침"
+          }
+        }
+      }
+    ]
+  ]
 }

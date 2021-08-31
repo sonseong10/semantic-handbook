@@ -1,7 +1,7 @@
 module.exports = {
   title: "Semantic Handbook",
   description: "HTML CSS Semantic Guidline ",
-  // base: "/static-handbook/",
+  base: "/semantic-handbook/",
 
   head: [
     [

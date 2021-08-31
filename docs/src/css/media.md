@@ -22,7 +22,7 @@
 
 ### Example
 
-breakpoints 기준의 한 예시 일뿐 정답이 아님을 알아야 합니다.
+breakpoints 기준의 한 예시 일뿐 정답이 아닙니다.
 
 |  Kind   | Breakpoint |
 | :-----: | :--------: |

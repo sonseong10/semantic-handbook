@@ -8,10 +8,10 @@
 
 ## 기억하면 좋은 속성
 
-- href: 링크는 HTTP 기반 URL일 필요는 없습니다. 그래서 `mailto:`, `tel:` 을 활용 해서 전화번호, 이메일주소 등 사용 가능 합니다.
+- href: 링크는 HTTP 기반 URL일 필요는 없습니다. 그래서 `mailto:`, `tel:` 을 활용해서 전화번호, 이메일주소 등 사용 가능합니다.
 
 :::warning 주의
-a 태그는 사용을 위해 href({h}ypertext {ref}erence)라는 속성 작성이 필요 합니다.
+a 태그는 사용을 위해 href({h}ypertext {ref}erence)라는 속성 작성이 필요합니다.
 :::
 
 - target: 링크한 URL을 표시할 위치. 가능한 값은 브라우징 맥락으로, 새 브라우저를 열지, 탭에 추가할지를 정할 수 있습니다.
@@ -24,7 +24,7 @@ a 태그는 사용을 위해 href({h}ypertext {ref}erence)라는 속성 작성�
 
 ### 예제
 
-이곳 이라는 텍스트에 본인이 가고싶은 주소(ex. naver, google, youtube...)를 입력 후 변화를 확인 합니다.
+이곳 이라는 텍스트에 본인이 가고 싶은 주소(ex. naver, google, youtube...)를 입력 후 변화를 확인합니다.
 
 **출력 결과**
 

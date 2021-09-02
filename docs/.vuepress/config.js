@@ -6,12 +6,12 @@ module.exports = {
   head: [
     [
       "meta",
-      { name: "viewport", content: "width=device-width, initial-scale=1" }
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
     ],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
       "meta",
-      { name: "apple-mobile-web-app-status-bar-style", content: "black" }
+      { name: "apple-mobile-web-app-status-bar-style", content: "black" },
     ],
     ["meta", { name: "theme-color", content: "#603cba" }],
     ["meta", { name: "msapplication-TileColor", content: "#603cba" }],
@@ -23,8 +23,8 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "32x32",
-        href: "/images/favicon-32x32.png"
-      }
+        href: "/images/favicon-32x32.png",
+      },
     ],
     [
       "link",
@@ -32,8 +32,8 @@ module.exports = {
         rel: "icon",
         type: "image/png",
         sizes: "16x16",
-        href: "/images/favicon-16x16.png"
-      }
+        href: "/images/favicon-16x16.png",
+      },
     ],
 
     ["link", { rel: "apple-touch-icon", href: "/images/apple-touch-icon.png" }],
@@ -42,9 +42,9 @@ module.exports = {
       {
         rel: "mask-icon",
         href: "/images/android-chrome-256x256.png",
-        color: "#603cba"
-      }
-    ]
+        color: "#603cba",
+      },
+    ],
   ],
 
   themeConfig: {
@@ -52,16 +52,16 @@ module.exports = {
     nav: [
       {
         text: "📖 HTML & CSS",
-        link: "/guide"
+        link: "/guide",
       },
       {
         text: "🙋‍♂️ About",
-        link: "/about/"
+        link: "/about/",
       },
       {
         text: "💻 Github",
-        link: "https://github.com/sonseong10"
-      }
+        link: "https://github.com/sonseong10",
+      },
     ],
     sidebar: [
       "/guide",
@@ -86,8 +86,8 @@ module.exports = {
           "/html/media",
           "/html/style-script",
           "/html/meta",
-          "/html/etc"
-        ]
+          "/html/etc",
+        ],
       },
       {
         title: "CSS",
@@ -106,8 +106,8 @@ module.exports = {
           "/css/media",
           "/css/em_rem",
           "/css/lint",
-          "/css/browser"
-        ]
+          "/css/browser",
+        ],
       },
       {
         title: "Semantic",
@@ -117,25 +117,25 @@ module.exports = {
           "/semantic/aria-attribute.md",
           "/semantic/data-attribute.md",
           "/semantic/background-image.md",
-          "/semantic/title-tip.md"
-        ]
-      }
-    ]
+          "/semantic/title-tip.md",
+        ],
+      },
+    ],
   },
-
-  plugins: [
-    ["@vuepress/plugin-back-to-top"],
-    [
-      {
-        "@vuepress/pwa": {
-          serviceWorker: true,
-          updatePopup: {
-            message:
-              "새 컨텐츠가 등록되었습니다. 새로고침 버튼을 눌러주세요 😄",
-            buttonText: "새로고침"
-          }
-        }
-      }
-    ]
-  ]
+  configureWebpack: {
+    resolve: {
+      alias: {
+        "@img": "./images",
+      },
+    },
+  },
+  plugins: {
+    "@vuepress/pwa": {
+      serviceWorker: true,
+      updatePopup: {
+        message: "새 컨텐츠가 등록되었습니다. 새로고침 버튼을 눌러주세요 😄",
+        buttonText: "새로고침",
+      },
+    },
+  },
 }
